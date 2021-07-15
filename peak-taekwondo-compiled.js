@@ -231,7 +231,8 @@ const Z=window.ShadowRoot&&(void 0===window.ShadyCSS||window.ShadyCSS.nativeShad
         flex: 1 1 auto;
         height: 100vh;
         width: 100vw;
-        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
       }
 
       .main {

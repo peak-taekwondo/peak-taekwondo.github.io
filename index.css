@@ -1,3 +1,8 @@
+.construction {
+  color: red;
+  font-size: xxx-large;
+}
+
 .banner {
   align-items: center;
   display: flex;
