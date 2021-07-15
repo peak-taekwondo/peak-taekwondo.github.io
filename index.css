@@ -17,3 +17,9 @@
 .content {
   padding: 5em;
 }
+
+@media (max-width: 700px) {
+  .content {
+    padding: 1em;
+  }
+}
