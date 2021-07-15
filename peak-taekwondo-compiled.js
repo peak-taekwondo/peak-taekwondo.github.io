@@ -284,12 +284,14 @@ const Z=window.ShadowRoot&&(void 0===window.ShadyCSS||window.ShadyCSS.nativeShad
         }
       }
 
-      @media (max-width: 500px) {
+      @media (max-width: 700px) {
         :host .spacer,
         :host .important {
           display: none;
         }
+      }
 
+      @media (max-width: 500px) {
         :host .site-map.footer {
           flex-direction: column;
         }
