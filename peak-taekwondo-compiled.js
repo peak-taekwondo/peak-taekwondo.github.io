@@ -285,6 +285,11 @@ const Z=window.ShadowRoot&&(void 0===window.ShadyCSS||window.ShadyCSS.nativeShad
       }
 
       @media (max-width: 500px) {
+        :host .spacer,
+        :host .important {
+          display: none;
+        }
+
         :host .site-map.footer {
           flex-direction: column;
         }
