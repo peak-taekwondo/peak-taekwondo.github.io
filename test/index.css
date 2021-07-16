@@ -1,0 +1,30 @@
+.construction {
+  color: red;
+  font-size: xxx-large;
+}
+
+.banner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner img {
+  max-width: 50%;
+}
+
+.banner .motto {
+  color: darkgray;
+  font-size: xxx-large;
+  font-style: italic;
+}
+
+.content {
+  padding: 5em;
+}
+
+@media (max-width: 700px) {
+  .content {
+    padding: 1em;
+  }
+}
